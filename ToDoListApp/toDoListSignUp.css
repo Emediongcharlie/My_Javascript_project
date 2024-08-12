@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1100px;
+    background-color: rgba(9, 6, 150, 0.158);
+    border-color: black;
+    height: 630px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.title{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 0px 160px 100px;
+    color: rgb(212, 139, 44);
+}
+
+.my{
+    font-size: 70px;
+}
+
+.the-search{
+    margin-bottom: 20px;
+    font-size: 25px;
+    justify-content: center;
+    margin-left: 300px;
+}
