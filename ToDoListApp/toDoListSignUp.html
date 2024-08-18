@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To DO List Login</title>
+    <title>To DO List Sign Up</title>
     <link rel="stylesheet" href="./toDoListSignUp.css">
 </head>
 <body>
     <div class = "container">
         <div class = "title">Welcome to <span class = "my">MY</span> To Do List</div>
         <div class = "tasklist">
+            <div class = "create-title">Create Your account or Login to continue</div>
             <form class = "form-container">
-            <input placeholder="Enter Your Fullname" type="text" name="search" class ="the-search"><br />
-            <input placeholder="Enter Your Email" type="email" name="search" class ="the-search"><br />
-            <input placeholder="Enter Your password" type="password" name="search" class ="the-search"><br />
-            <button class = "the-search" type="submit" name="search">Submit</button>
+            <input placeholder="Enter Your Fullname" type="text" name="search" class ="fullname"><br />
+            <input placeholder="Enter Your Email" type="email" name="search" class ="email"><br />
+            <input placeholder="Enter Your password" type="password" name="search" class ="password"><br />
+            <button class = "create" type="submit" name="search">Create</button>    
+            <div class = "create-title">If registered already? Login here</div>
+            <a class = "signupButton" href="http://127.0.0.1:5500/toDoListLogin.html">Login</a>
         </form>
         
         </div>
         
     </div>
-    <script src = "/toDoListSignUpScript.js"></script>
+    <script src = "./signUpfile.js"></script>
 </body>
 </html>

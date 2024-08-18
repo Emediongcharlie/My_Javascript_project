@@ -8,22 +8,24 @@
 </head>
 <body>
     <div class = "container">
-        <div class = "title">Welcome to <span class = "my">MY</span> To Do List</div>
-        <div class = "tasklist">
-            <form class = "form-container">
-            <input placeholder="search" type="password" name="search" class ="the-search"><br />
-            <button class = "the-search2" type="submit" name="search">Search</button>
-        </form>
-        <div class = "options">
-            <ul class = "options-list">
-                <li class = "list-option">Add task</li>
-                <li class = "list-option">Remove task</li>
-                <li class = "list-option">Edit task</li>
-            </ul>
+       
+        <div class = "img">
+             <div class = "title"><span class = "my">MY</span> To Do List</div>
+            <img class = "img-responsive" src = "images - 2024-08-11T232741.432.jpeg">
+           
         </div>
+        
+        <div class = "task-line">
+            <div class = "desciption"> Daily<br /> Schedule <br />Tracking <br /> System </div>
+            <form class = "form-container"> 
+            <input placeholder="Enter email" type="email" name="search" id="email"><br />
+            <input placeholder="Enter password" type="password" name="search" id="password"><br />
+            <button class = "submit-option" type="submit" name="search">Login</button>
+            <!-- <a class = "submit-option" href="http://127.0.0.1:5500/ToDoListApp/toDoListLogin.html">Login</a> -->
+            </form>
         </div>
         
     </div>
-    <script src = "/toDoListLoginScript.js"></script>
+    <script src = "./loginfile.js"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO List Login</title>
+    <link rel="stylesheet" href="./toDoListEdit.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "title">Welcome to <span class = "my">MY</span> To Do List</div>
+        <div class = "tasklist">
+            <form class = "form-container">
+            <input placeholder="search" type="search" name="search" class ="the-search"><br />
+            <button class = "the-search2" type="submit" name="search">Search</button>
+        </form>
+        <div class = "options">
+            <h2 class="title2">Daily Task</h2>
+            <ul class = "options-list">
+                <li>
+                    <button class="name">Name of the Wind</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+                <li>
+                    <button class="name">The Wise Man's Fear</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+                <li>
+                    <button class="name">Kafka on the Shore</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+                <li>
+                    <button class="name">The Master and the Margarita</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+            </ul>
+            
+        </div>
+        <form class = "add-task">
+                <input type="search" placeholder="Add a task..." class = "addNewTask2" />
+	    	<button class = "addNewTask", type="submit", name="Add">Create</button>
+            </form>
+        </div>
+        
+    </div>
+    <script src = "/toDoListEditScript.js"></script>
+</body>
+</html>
+
+

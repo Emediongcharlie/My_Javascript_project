@@ -25,47 +25,50 @@
     font-size: 70px;
 }
 
-.form-container{
-    padding: 170px 250px 100px;
-    
-}
-
-#email{
-    margin-bottom: 10px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: white;
-}
-
-#password{
-    margin-bottom: 10px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: white;
-}
 
 .submit-option{
-    /* height: 25px; */
-    width: 100px;
+    height: 25px;
+    width: 70px;
     border-radius: 10px;
     border-color: white;
     text-decoration: none;
     list-style: none;
-    background-color: red;
+    list-style: none;
+}
+
+.header-menu{
+    padding-top: 20px;
+    margin-left: 800px;
+    display: flex;
+    margin-bottom: 10px;
+
+
+}
+.signupButton{
+    width: 100px;
+    border-color: white;
+    list-style: none;
+    text-decoration: none;
     text-align: center;
+    border-radius: 10px;
     background-color: rgba(9, 6, 150, 0.158);
     height: 30px;
     font-weight: bold;
-    
+    margin-bottom: 50px;
 }
 
-.img-responsive{
-    width: 150px;
-    margin-left: 500px;
-    border-style: none;
-    justify-content: space-between;
-    
-    width: 20vb;
+.signupButton{
+    width: 100px;
+    border-color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(9, 6, 150, 0.158);
+    height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
 }
 
 .img{
@@ -76,10 +79,9 @@
 }
 
 .task-line{
-    display: flex;
-   
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    display: flex;
 }
 
 .desciption{
@@ -87,4 +89,10 @@
  margin: 50px 50px;
  justify-content: center;
  text-align: center;
+}
+
+.new-image{
+    height: 400px;
+    width: 800px;
+   
 }
