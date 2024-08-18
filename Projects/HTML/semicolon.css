@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.semicolon_image{
+    width: 120px;
+    height: 30px;
+    margin: 5%;
+}
+
+.note{
+    padding-left: 140px;
+    padding-top: 200px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.vision{
+    padding-left: 140px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vision_button{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vision_image{
+    width: 800px;
+    padding-left: 50px;
+}
+
+.vision_button2{
+    background-color:white;
+    color: red;
+    border-color: red;
+    padding: 20px;
+    font-size: 30px;
+    flood-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.motto{
+    display: flex;
+    padding: 0%;
+}
+
+.what_we_do_message{
+    font-size: 28px;
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    word-break: normal;
+}
+
+.colour_it{
+    color: red;
+}
+
+.what-we-do{
+    padding-left: 200px;
+    display: flex;
+    shape-image-threshold: inherit ;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5rem;
+}
+
+.what-we-do1{
+    font-size: 20px;
+    justify-content: center;
+    border: red;
+    padding: 30px;
+    background: red;
+    width: 35%;
+    border-radius: 30px;
+    color: white;
+}
+
+.what-we-do2{
+    font-size: 20px;
+    justify-content: center;
+    border: red;
+    padding: 30px;
+    background: red;
+    width: 35%;
+    border-radius: 30px;
+    color: white;
+}
+
+.bigger{
+    font-style: normal;
+    font-size: 50px;
+}
+
+.larger{
+    font-style: normal;
+    font-size: 50px;
+}
+
+.rectangle_shape{
+    border: white;
+    background: transparent;
+    shape-outside: margin-box;
+}
+
+.how-we-do-it{
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 250px;
+    display: flex;
+    gap: 6rem;
+}
+
+.how-we-do-it-title{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration-line: none;
+}
+
+.add-colour{
+    color: red;
+}
+
+.list_of_what_we_do{
+    text-decoration: none;
+    padding: 25px;
+    line-height: 60px;
+    list-style-type: none;
+    color: black;
+
+}
+
+.list_of_what_we_do li{
+    border-left: 5px solid white;
+    padding-left: 20px;
+    text-decoration: none;
+
+}
+
+.list_of_what_we_do ul{
+    list-style: none;
+}
+.list_of_what_we_do ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.list_of_what_we_do li:hover{
+    border-color: red;
+}
+
+.img-responsive{
+    padding: 35px;
+
+}
+
+.image2{
+    padding: 35px;
+}
+
+.tech_training{
+    width: 500px;
+    height: 500px;
+}
+
+.training{
+    width: 750px;
+    height: 450px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.bolder{
+    font-weight: bold;
+}
+
+.make_bolder{
+    font-weight: bold;
+}
+
+.smaller{
+    font-size: 20px;
+}
+
+.small{
+    font-size: 20px; 
+}
+
+.our_training{
+    justify-content: center;
+    border: red;
+    padding: 30px;
+    background: red;
+    width:100%;
+    border-radius: 0px 0px 30px 30px;
+    color: white;
+}
+
+.circle_shape{
+    border: red;
+    padding: 160px;
+    background: red;
+    opacity: 0.1;
+    padding-top: 50%;
+    width:80%;
+    border-radius: 100%;
+    padding-left: 0px; 
+}
+
+.rectangle_background{
+    border: blue;
+    padding: 150px;
+    background: blue;
+    opacity: 0.1;
+    width: 1000px;
+}
+
+.enum_icon{
+    padding-top: 100px;
+    padding-left: 900px;
+    padding-bottom: 0px;
+}
+
+.enum_images{
+    padding-left: 300px;
+}
+
+.add_color{
+    color: rgb(70, 70, 175);
+    font-weight: bold;
+}
+
+.new_message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 750px;
+    font-size: 30px;
+}
+
+.new_enum_message{
+    padding-left: 150px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.enum_button2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(49, 126, 226);
+    border: rgb(49, 110, 223);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.our_enum_button{
+    padding-left: 900px;
+    padding-top: 30px;
+}
+
+.enum_block{
+    background-color: rgb(236, 241, 248);
+    border: blue;
+    width: 100%;
+    fill-opacity: 0.1;
+}
+
+.brand_color{
+    color: red;
+}
+
+.brands{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.brand_logos_edit{
+    padding-left: 150px;
+    justify-content: space-around;
+    padding-right: 150px;
+}
+
+.brands_logo{
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.brands2{
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.brands3{
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.comments{
+    border: red;
+    background: red;
+    width: 100%;
+    padding: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.edit_title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    
+}
+
+.edit_title2{
+    padding-top: 20px;
+    justify-items: normal;
+    
+   
+}
+
+/* .email_collector{
+    padding-left: 700px;
+    padding-top: 150px; 
+}   */
+
+.edit_title3{
+    padding-top: 20px;
+    font-size: 30px;  
+}
+
+.town_crier{
+    border: red;
+    background:rgb(231, 231, 155);
+    width: 600px;
+    border-width: 20px;
+    /* padding-left: 500px; */
+    margin-left: 700px;
+    border-radius: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    
+    /* padding-top: 150px;
+    padding-left: 700px; */
+
+}
+
+.criers{
+    color: white;
+    background: red;
+    border: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.Business{
+    font-weight: bold;
+}
+
+.Individuals{
+    font-weight: bold;
+}
+
+.About{
+    font-weight: bold;
+}
+
+.Contact_Us{
+    font-weight: bold;
+}
+
+.business_options:hover{
+    list-style-type: none;
+    padding-top: 10px;
+    color: red;
+}
+
+.individual_option:hover{
+    list-style-type: none;
+    padding-top: 10px;
+    text-decoration:hover;
+    color: red;
+}
+
+.about_option:hover{
+    list-style-type: none;
+    padding-top: 10px;
+    text-decoration:hover;
+    color: red;
+}
+
+.contact_option:hover{
+    list-style-type: none;
+    padding-top: 10px;
+    text-decoration:hover;
+    color: red;
+}
+.contacts ul li{
+    list-style: none;
+
+}
+
+.follow_us{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+.social_media{
+    padding-left: 180px;
+    padding-top: 20px;
+    size-adjust: 20px;
+}
+
+.bottom_icon{
+    padding-left: 1200px;
+}
+
+.copyright{
+    padding-left: 700px;
+}

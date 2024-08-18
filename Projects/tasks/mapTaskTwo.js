@@ -1,9 +1,12 @@
 let grades = [85,92,78,88,95];
 
 function addScore(grade){
-    return grade + 5
-       
+    return grade.map((grades) => {
+        return grades + 5 
+    })
     }
 
-let studentGrade = grades.map(addScore)
-console.log(studentGrade)
+    // module.exports = {addScore};
+
+// let studentGrade = grades.map(addScore)
+console.log(addScore(grades))

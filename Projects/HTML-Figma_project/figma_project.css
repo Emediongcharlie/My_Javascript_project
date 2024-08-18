@@ -1,0 +1,320 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Header{
+    padding-left: 5px;
+    padding-top: 20px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.navigation ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    text-decoration-line: none;
+    width: 700px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.button{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logo{
+    padding: 0px;
+}
+
+.first_heading{
+    font-size: 70px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.paragraph{
+    padding-top: 130px;
+}
+
+.help{
+    color: rgb(68, 143, 230);
+}
+
+.sub-paragraph{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 0px;
+}
+
+.get_started_button{
+    color: white;
+    background-color: rgb(68, 143, 230);
+    border-color: rgb(68, 143, 230);
+    width: 250px;
+    font-size: 35px;
+    padding-top: 10px;
+    box-shadow: 8px 8px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.watch_out{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 100px;
+
+}
+
+.get_started_section{
+    padding-top: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 700px;
+}
+
+.image2{
+    padding-left: -20px;
+    width: -300px;
+}
+
+.image3{
+    padding-top: 40px;
+    width: 500px;
+    height: 500px;
+    padding-left: 300px;
+}
+
+.About_section{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.About_heading{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.statement1{
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.our_service{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.image_tent{
+    padding-left: 1100px;
+}
+
+.services{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    color: rgb(68, 143, 230);
+}
+
+.services_description{
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+.description{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description_expression{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+.services_image{
+    padding-top: 35px;
+    padding-left: 200px;
+    padding: 200px;
+}
+
+.our_services_container{
+    display: flex;
+}
+
+.helping_the_elderly{
+    display: flex;
+    padding-left: 100px;
+}
+
+.helping_the_elderly_heading{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.helping_the_elderly_heading2{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.helping_the_elderly_write_up{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+.food_and_clothes_heading{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.food_image{
+    padding-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buying_food{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.food{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px; 
+}
+
+.special_help_heading{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 350px;
+    width: 1200px;
+    background-color:rgb(68, 143, 230);;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-bottom: 110px;
+    color: white
+
+}
+
+.special_help_heading2{
+    padding-left: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding: 50px; */
+    /* padding-top: 100px; */
+}
+
+.get_button{
+    /* padding-bottom: 50px; */
+    /* padding-top: 50px; */
+    /* padding-left: 500px; */
+    margin-left: 750px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 8px 8px black;
+    padding-top: 10px;
+    font-size: 32px;
+    width: 250px;
+    border-color: rgb(68, 143, 230);;
+    background-color: white;
+    color: black
+}
+
+.special_help_image{
+   
+    /* padding-top: 100px; */
+    
+}
+.special_help{
+    margin-left: 30rem;
+    padding-top: 250px;
+    position: relative;
+    z-index: 122;  
+}
+
+.consultation_form_field{
+    padding-left: 350px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.consultation_form{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.consultation_form_message{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.consultation_form_items1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    /* display: flex; */
+    width: 300px;
+    border: 2px solid;
+    padding: 10px 20px;
+}
+
+.consultation_form_items3{
+    font-size: 30px;
+    width: 100px;
+    padding-left: 30px;
+}
+
+.consultation_form1{
+    display: flex;
+    width: 1098px;
+    height: 113px;
+    gap: 38px;
+}
+
+.consultation_form_items2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    width: 1098px;
+    height: 113px;
+    gap: 38px;
+}
+
+.consultation2{
+    padding-left: 260px;
+}
+
+
+.input{
+    width: 900px;
+    height: 100px;
+    font-size: 35px;
+}
+
+
